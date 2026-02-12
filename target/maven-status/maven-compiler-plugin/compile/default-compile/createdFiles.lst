@@ -1,0 +1,6 @@
+com\example\aiquality\config\CorsConfig.class
+com\example\aiquality\service\QualityService.class
+com\example\aiquality\model\PredictionResult.class
+com\example\aiquality\AiQualityApplication.class
+com\example\aiquality\controller\QualityController.class
+com\example\aiquality\model\PredictionResponse.class
