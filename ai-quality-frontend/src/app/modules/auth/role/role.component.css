@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+  color: #185a9d;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}

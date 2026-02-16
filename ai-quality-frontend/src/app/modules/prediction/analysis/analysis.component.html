@@ -1,0 +1,27 @@
+<h2>Quality Analysis Result</h2>
+
+<div class="analysis-card grade-{{grade}}">
+  <h1>Grade {{ grade }}</h1>
+  <p>Confidence: {{ confidence }}%</p>
+</div>
+
+<table class="details">
+  <tr>
+    <td>Crop</td>
+    <td>{{ cropName }}</td>
+  </tr>
+  <tr>
+    <td>Moisture</td>
+    <td>{{ qualityDetails.moisture }}</td>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>{{ qualityDetails.size }}</td>
+  </tr>
+  <tr>
+    <td>Defects</td>
+    <td>{{ qualityDetails.defects }}</td>
+  </tr>
+</table>
+
+<button class="btn">View Full Report</button>

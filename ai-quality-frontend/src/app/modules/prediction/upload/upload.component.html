@@ -1,0 +1,21 @@
+<h2>Crop Quality Prediction</h2>
+
+<div class="upload-card">
+
+  <label class="upload-box">
+    <input type="file" accept="image/*" (change)="onFileSelected($event)" hidden>
+    <span>📷 Click to Upload / Capture Crop Image</span>
+  </label>
+
+  <div *ngIf="previewUrl" class="preview">
+    <img [src]="previewUrl" alt="Preview">
+  </div>
+
+  <button 
+    class="btn"
+    [disabled]="!selectedImage"
+    (click)="analyzeImage()">
+    Analyze Quality
+  </button>
+
+</div>

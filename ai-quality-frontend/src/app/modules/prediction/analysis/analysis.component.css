@@ -1,0 +1,29 @@
+.analysis-card {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grade-A { background: #e8f5e9; color: #2e7d32; }
+.grade-B { background: #fff3e0; color: #ef6c00; }
+.grade-C { background: #ffebee; color: #c62828; }
+
+.details {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.details td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
